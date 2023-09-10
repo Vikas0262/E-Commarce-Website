@@ -219,49 +219,49 @@ body {
   margin: 15px 0;
   border-radius: 25px;
   cursor: pointer;
-  box-shadow: 20px 20px 30px rgba(0,0,0, 0.02);
+  box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
   transition: 02s ease;
   position: relative;
 }
 
-#featured-Product1 .pro:hover{
-  box-shadow: 20px 20px 30px rgba(0,0,0, 0.06);
+#featured-Product1 .pro:hover {
+  box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
 
 }
 
-#featured-Product1 .pro img{
+#featured-Product1 .pro img {
   width: 100%;
 }
 
-#featured-Product1 .pro .des{
+#featured-Product1 .pro .des {
   text-align: start;
   padding-block: 10px;
 }
 
-#featured-Product1 .pro .des span{
+#featured-Product1 .pro .des span {
   color: #606063;
   font-size: 12px;
 }
 
-#featured-Product1 .pro .des h5{
+#featured-Product1 .pro .des h5 {
   color: #1a1a1a;
   padding-top: 7px;
   font-size: 14px;
 }
 
-#featured-Product1 .pro .des i{
+#featured-Product1 .pro .des i {
   font-size: 12px;
   color: rgb(243, 181, 25);
 }
 
-#featured-Product1 .pro .des h4{
+#featured-Product1 .pro .des h4 {
   padding-top: 7px;
   font-size: 15px;
   font-weight: 700;
   color: #088178;
 }
 
-#featured-Product1 .pro #cart{
+#featured-Product1 .pro #cart {
   border: 1px solid #cce7d0;
   width: 40px;
   height: 40px;
@@ -275,7 +275,7 @@ body {
   right: 10px;
 }
 
-.pro-container{
+.pro-container {
   /* border: 1px solid blue; */
   flex-wrap: wrap;
   justify-content: space-between;
@@ -283,7 +283,7 @@ body {
 
 /* BANNER DESINGING  */
 
-#banner{
+#banner {
   /* border: 1px solid red; */
   flex-direction: column;
   justify-content: center;
@@ -296,21 +296,21 @@ body {
   background-position: center;
 }
 
-#banner h4{
+#banner h4 {
   color: #fff;
   font-size: 16px;
 }
 
-#banner h2{
+#banner h2 {
   color: #fff;
   font-size: 30px;
 }
 
-#banner h2 span{
+#banner h2 span {
   color: #ef3636;
 }
 
-button.normal{
+button.normal {
   font-size: 14px;
   font-weight: 600;
   padding: 15px 30px;
@@ -323,7 +323,29 @@ button.normal{
   transition: 0.2s;
 }
 
-button.normal:hover{
+button.normal:hover {
   background: #088178;
   color: #fff;
+}
+
+/* ================ sm-banner======================= */
+
+#sm-banner {
+  border: 1px solid red;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#sm-banner .banner-box {
+  border: 1px solid blue;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  gap: 20px;
+  background-image: url("img/banner/b17.jpg");
+  min-width: 580px;
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
 }
