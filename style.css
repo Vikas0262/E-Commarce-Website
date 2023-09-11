@@ -81,7 +81,7 @@ body {
   left: 0;
 }
 
-#header .logo {
+.logo {
   width: 75px;
 }
 
@@ -452,6 +452,7 @@ button.white {
   color: #818ea0;
   font-size: 14px;
   font-weight: 600;
+  margin-bottom: 10px;
 }
 
 .content p span{
@@ -478,4 +479,33 @@ button.white {
   border-top-left-radius: 0;
 }
 
+/* ================== Footer ======= */
 
+footer{
+  margin-top: 20px;
+}
+
+.footer-container{
+  /* border: 1px solid red; */
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-container p{
+  font-size: 14px;
+}
+
+.footer-container .Fourth .button{
+  outline: none;
+}
+
+.footer-container .First h5{
+  margin-top: 10px;
+}
+
+.footer-container .icons{
+  /* border: 1px solid blue; */
+  margin-top: 10px;
+  gap: 10px;
+  font-size: 1.3rem;
+}
