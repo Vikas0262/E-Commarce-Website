@@ -83,6 +83,7 @@ body {
 
 .logo {
   width: 75px;
+  margin-right: 25px;
 }
 
 .navbar {
@@ -110,6 +111,17 @@ body {
   background: #088178;
   left: 0;
   bottom: -4px;
+}
+
+.mobile{
+  display: none;
+}
+.menu{
+  cursor: pointer;
+  margin-left: 15px;
+}
+#close{
+  display: none;
 }
 
 /* =============== HERO SECTION ============= */
@@ -493,6 +505,7 @@ footer{
 
 .footer-container p{
   font-size: 14px;
+  line-height: 1;
 }
 
 .footer-container .Fourth .button{
@@ -508,4 +521,21 @@ footer{
   margin-top: 10px;
   gap: 10px;
   font-size: 1.3rem;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+
+.footer-container .hover-icon:hover{
+  color: #088178;
+  font-size: 1.5rem;
+
+}
+
+.footer-container .First span{
+  font-weight: 800;
+}
+
+.footer-container .footer-heading{
+  /* border: 1px solid red; */
+  margin-top: 1.5rem;
 }
