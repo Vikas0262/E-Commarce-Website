@@ -168,23 +168,23 @@
     #banner,
     #sm-banner {
         gap: 5px;
-        padding-inline: 30px;
+        padding-inline: 25px;
     }
 
     #hero {
-        height: 45vh;
+        height: 50vh;
 
     }
 
     #features .fe-box {
-        width: 150px;
-        padding: 15px 12px;
+        width: 140px;
+        padding: 12px 12px;
         border-radius: 5px;
         margin-block: 8px;
     }
 
     #header {
-        padding: 5px 30px;
+        padding: 5px 25px;
     }
 
     #banner{
