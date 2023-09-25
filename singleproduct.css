@@ -1,0 +1,21 @@
+#pro-details .left-image{
+    border: 2px solid blue;
+    width: 40%;
+    margin-right: 50px;
+
+}
+
+.small-image-group{
+    /* justify-content: space-between; */
+    gap: 5px;
+}
+.small-image-col{
+    /* border: 1px solid; */
+    flex-basis: 24%;
+    cursor: pointer;
+}
+
+
+#pro-details .right-content{
+    border: 1px solid red;
+}

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>E-Commarce Website</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="shopstyle.css">
     <link rel="stylesheet" href="responsive.css">
     <script src="script.js" defer></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
@@ -18,10 +19,10 @@
         <a href="#"><img src="img/logo.png" class="logo"></a>
         <nav>
             <ul class="navbar flex">
-                <li><a class="active" href="home.html">Home</a></li>
+                <li><a href="home.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="contact.html">Contact</a></li>
-                <li><a href="shop.html">Shop</a></li>
+                <li><a class="active" href="shop.html">Shop</a></li>
                 <li><a href="blog.html">Blog</a></li> 
                 <li><a href="cart.html"><i class="fa-solid fa-cart-shopping" id="cart-btn"></i></a></li>
                 <i class="fa-solid fa-xmark close" id="close"></i>
@@ -34,44 +35,12 @@
     </header>
 
     <main>
-        <section id="hero">
-            <h4>Trade-in-offer</h4>
-            <h2>Super Value Deals</h2>
-            <h1>On all Products</h1>
+        <section id="page-header" class="flex">
+            <h2>#stayHome</h2>
             <p>Save more with coupons & up to 70% off!</p>
-            <button>Shop Now</button>
-        </section>
-
-        <section id="features" class="section-p1 flex">
-            <div class="fe-box">
-                <img src="img/features/f1.png" alt="">
-                <h6>Free Shipping</h6>
-            </div>
-            <div class="fe-box">
-                <img src="img/features/f2.png" alt="">
-                <h6>Online Order</h6>
-            </div>
-            <div class="fe-box">
-                <img src="img/features/f3.png" alt="">
-                <h6>Save Money</h6>
-            </div>
-            <div class="fe-box">
-                <img src="img/features/f4.png" alt="">
-                <h6>Promotions</h6>
-            </div>
-            <div class="fe-box">
-                <img src="img/features/f5.png" alt="">
-                <h6>Happy Sell</h6>
-            </div>
-            <div class="fe-box">
-                <img src="img/features/f6.png" alt="">
-                <h6>24/7 Support</h6>
-            </div>
         </section>
 
         <section id="featured-Product1" class="section-p1">
-            <h2>Featured Products</h2>
-            <p>Summer Collection New Morden Design</p>
             <div class="pro-container flex">
                 <div class="pro">
                     <img src="img/products/f1.jpg" alt="">
@@ -208,19 +177,6 @@
                     </div>
                     <a href="#"><i class="fa-solid fa-cart-shopping" id="cart"></i></a>
                 </div>
-            </div>
-        </section>
-
-        <section id="banner" class="section-p1 flex">
-            <h4>Repair Services</h4>
-            <h2>Up to <span>70% off</span> - All t-Shirts & Accessories</h2>
-            <button class="normal">Explore More</button>
-        </section>
-
-        <section id="featured-Product1" class="section-p1">
-            <h2>New Arrivals</h2>
-            <p>Summer Collection New Morden Design</p>
-            <div class="pro-container flex">
                 <div class="pro">
                     <img src="img/products/n1.jpg" alt="">
                     <div class="des">
@@ -359,35 +315,10 @@
             </div>
         </section>
 
-        <section id="sm-banner" class="section-p1 flex">
-            <div class="banner-box flex">
-                <h4>crezy deals</h4>
-                <h2>buy 1 get 1 free</h2>
-                <span>The best classic dress is on sale at cara</span>
-                <button class="white">Learn More</button>
-            </div>
-            <div class="banner-box banner-box2 flex">
-                <h4>Spring/Summer</h4>
-                <h2>Upcomming Season</h2>
-                <span>The best classic dress is on sale at cara</span>
-                <button class="white">Collection</button>
-            </div>
-        </section>
-
-        <section id="banner3" class="section-p1 flex">
-            <div class="banner-box flex">
-                <h2>SEASONAL SALE</h2>
-                <h3>Winter Collection -50% OFF</h3>
-            </div>
-            <div class="banner-box banner-box2 flex">
-                <h2>SEASONAL SALE</h2>
-                <h3>Winter Collection -50% OFF</h3>
-            </div>
-            <div class="banner-box banner-box3 flex">
-                <h2>SEASONAL SALE</h2>
-                <h3>Winter Collection -50% OFF</h3>
-            </div>
-
+        <section id="pagination" class="section-p1 section-m1">
+            <a href="#">1</a>
+            <a href="#">2</a>
+            <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
         </section>
 
         <section id="banner4">
