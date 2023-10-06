@@ -173,6 +173,7 @@ body {
   padding: 25px 15px;
   border-radius: 4px;
   margin-block: 15px;
+  cursor: pointer;
   transition: 0.2s ease;
 }
 
