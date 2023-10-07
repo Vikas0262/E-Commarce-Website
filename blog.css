@@ -74,6 +74,7 @@
         display: flex;
         flex-direction: column;
         align-items: flex-start;
+        padding-bottom: 50px;
     }
     #blog .blog-img{
         width: 100%;

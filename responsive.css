@@ -153,6 +153,16 @@
         font-size: 16px;
         font-weight: 700;
     }
+
+    #page-header{
+        /* border: 1px solid red; */
+        height: 30vh;
+    }
+
+    /* padding-ipad */
+    .padding-ipad{
+        padding-inline: 40px;
+    }
 }
 
 @media (max-width:477px) {
@@ -173,7 +183,6 @@
 
     #hero {
         height: 48vh;
-
     }
 
     #features .fe-box {
@@ -197,9 +206,9 @@
         font-size: 1.1rem;
       }
       button.normal {
-        font-size: 12px;
+        font-size: 16px;
         font-weight: 500;
-        padding: 12px 25px;
+        padding: 12px 15px;
       }
 
     .pro-container {
@@ -215,5 +224,10 @@
     }
     .button-img{
         margin-bottom: 5px;
+    }
+
+    /* padding-mobile */
+    .padding-mobile{
+        padding-inline: 20px;
     }
 }
