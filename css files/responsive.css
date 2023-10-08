@@ -1,5 +1,13 @@
 @media (max-width:799px) {
 
+    .section-p1 {
+        padding: 20px 40px;
+      }
+      
+      .section-m1 {
+        margin: 20px 0;
+      }
+
     /* Global Styles */
 
     h1 {
@@ -115,6 +123,10 @@
         overflow: hidden;
     }
 
+    #sm-banner{
+        gap: 15px;
+    }
+
     #sm-banner .banner-box {
         min-width: 330px;
         height: 35vh;
@@ -154,18 +166,26 @@
         font-weight: 700;
     }
 
-    #page-header{
+    #page-header {
         /* border: 1px solid red; */
         height: 30vh;
     }
 
     /* padding-ipad */
-    .padding-ipad{
+    .padding-ipad {
         padding-inline: 40px;
     }
 }
 
 @media (max-width:477px) {
+
+    .section-p1 {
+        padding: 10px 20px;
+      }
+      
+      .section-m1 {
+        margin: 10px 0;
+      }
 
     .logo {
         width: 55px;
@@ -196,20 +216,23 @@
         padding: 5px 25px;
     }
 
-    #banner{
-     height: 28vh;
+    #banner {
+        height: 28vh;
     }
+
     #banner h4 {
         font-size: 14px;
-      }
-      #banner h2 {
+    }
+
+    #banner h2 {
         font-size: 1.1rem;
-      }
-      button.normal {
+    }
+
+    button.normal {
         font-size: 16px;
         font-weight: 500;
         padding: 12px 15px;
-      }
+    }
 
     .pro-container {
         justify-content: center;
@@ -222,12 +245,30 @@
     footer {
         overflow: hidden;
     }
-    .button-img{
+
+    .button-img {
         margin-bottom: 5px;
     }
 
+    #banner3 {
+        flex-wrap: wrap;
+    }
+
+    #featured-Product1 .pro {
+        width: 100%;
+    }
+
+    #banner3 .banner-box {
+        padding: 10px;
+    }
+
+    #banner3 h2 {
+        font-size: 14px;
+        font-weight: 600;
+      }
+
     /* padding-mobile */
-    .padding-mobile{
+    .padding-mobile {
         padding-inline: 20px;
     }
 }
