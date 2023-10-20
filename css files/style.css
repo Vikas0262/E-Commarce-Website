@@ -130,7 +130,7 @@ body {
   background-image: url(/img/hero4.png);
   background-size: cover;
   background-position: top 25% right 0;
-  height: 88vh;
+  height: 90vh;
   width: 100%;
   padding: 0 85px;
   display: flex;
@@ -354,7 +354,7 @@ button.normal:hover {
   justify-content: center;
   padding-left: 30px;
   background-image: url("/img/banner/b17.jpg");
-  min-width: 580px;
+  min-width: 550px;
   height: 50vh;
   background-size: cover;
   background-position: center;
