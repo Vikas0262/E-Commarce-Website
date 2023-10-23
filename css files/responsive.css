@@ -106,6 +106,9 @@
         gap: 5px;
         padding-inline: 45px;
     }
+    #featured-Product1{
+        margin-top: 15px;
+    }
 
     #banner h2 {
         font-size: 1.5rem;
@@ -199,6 +202,12 @@
     #sm-banner {
         gap: 5px;
         padding-inline: 25px;
+    }
+
+    #sm-banner .banner-box {
+        min-width: 2700px;
+        height: 35vh;
+        padding-left: 20px;
     }
 
     #hero {
