@@ -344,23 +344,32 @@ button.normal:hover {
 /* ================ sm-banner======================= */
 
 #sm-banner {
-  justify-content: space-between;
+  /* border: 1px solid blue; */
+  gap: 40px;
   flex-wrap: wrap;
+  /* justify-content: space-between; */
+  /*flex-wrap: wrap; */
 }
 
 #sm-banner .banner-box {
-  align-items: flex-start;
+
+  /* border: 1px solid red; */
+  height: 45vh;
+  width: calc(50% - 20px);
+
+   align-items: flex-start;
   flex-direction: column;
   justify-content: center;
   padding-left: 30px;
   background-image: url("img/banner/b17.jpg");
-  min-width: 550px;
-  height: 50vh;
+  /* min-width: 550px; */
+  /* height: 50vh; */
   background-size: cover;
-  background-position: center;
+  background-position: center; 
 }
 
 #sm-banner .banner-box2 {
+  /* border: 1px solid green; */
   background-image: url("img/banner/b10.jpg");
 }
 

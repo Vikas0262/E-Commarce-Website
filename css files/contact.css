@@ -5,6 +5,10 @@
     width: 40%;
 }
 
+#page-header.contact-header {
+    background-image: url("/img/banner-demo.jpg");
+}
+
 #contact-details .details span,
 #form-details form span{
     font-size: 12px;
