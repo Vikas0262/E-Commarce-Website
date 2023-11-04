@@ -58,7 +58,7 @@
         top: 0;
         right: -500px;
         height: 380px;
-        width: 100%;
+        width: 495px;
         background: #E3E6F3;
         box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
         transform: 0.4s;
@@ -183,6 +183,10 @@
 }
 
 @media (max-width:477px) {
+
+    .navbar{
+        width: 100%;
+    }
 
     .section-p1 {
         padding: 10px 20px;
