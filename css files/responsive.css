@@ -293,4 +293,19 @@
     .padding-mobile {
         padding-inline: 20px;
     }
+
+    #pro-details{
+        flex-wrap: wrap;
+    }
+    #pro-details .left-image{
+        width: 100%;
+        margin-right: 0;
+    }
+    #pro-details .right-content{
+        width: 100%;
+        height: 75vh;
+    }
+    #size{
+        margin-bottom: 15px;
+    }
 }
